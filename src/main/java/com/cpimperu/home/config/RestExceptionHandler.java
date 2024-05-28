@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 @ControllerAdvice
 public class RestExceptionHandler {
-    private static String MESSAGE = "HUARAZ-PERU";
+    private static String MESSAGE = "mensage";
 
     // Handle IllegalArgumentException
     @ExceptionHandler(IllegalArgumentException.class)
